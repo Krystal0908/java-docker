@@ -1,0 +1,6 @@
+微服务jar包：docker_boot-1.0-SNAPSHOT.jar
+
+命令：
+docker build -t krystal_docker:1.0 .
+docker images
+docker run -d -p 6001:6001 bc60a18707fe
